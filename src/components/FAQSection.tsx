@@ -1,11 +1,11 @@
 import { Play, CheckCircle } from "lucide-react";
 
 const features = [
-  "Delays delays delays delays delays delays",
-  "Delays delays delays delays delays",
-  "Delays delays delays delays delays delays",
-  "Delays delays delays delays",
-  "Delays delays delays delays delays delays",
+  "Artov dsatsitsov adelndelays aratsatsatsits qualerov tser",
+  "Gdelays nuyanov soloe qrdelays ov danerits quatsov artov",
+  "Intsanudelays artov irdelays hasatsdelays artov dzdelays tsov",
+  "Casov dzerkh Ov dzelelays nueadzelov tsu tsov",
+  "Ev dzerknadgortsov tsatsov artov adelnov tsov norgdelays tsov",
 ];
 
 const FAQSection = () => {
@@ -25,27 +25,35 @@ const FAQSection = () => {
               </button>
             </div>
 
-            <div className="absolute bottom-4 left-4 bg-background rounded-xl shadow-lg p-3">
-              <p className="text-xs font-semibold text-primary">📊 Дdelays</p>
-              <p className="text-[10px] text-muted-foreground">Delays delays delays</p>
+            <div className="absolute top-6 left-4 bg-background rounded-xl shadow-lg p-3">
+              <p className="text-xs font-semibold">
+                <span className="text-[hsl(35,100%,55%)]">●</span> Videlays
+              </p>
+              <p className="text-sm font-bold">Дasunthatsner</p>
             </div>
 
-            <div className="absolute bottom-16 left-4 bg-background rounded-xl shadow-lg p-3">
-              <p className="text-xs font-semibold text-primary">✅ Gortdelays</p>
+            <div className="absolute bottom-6 left-4 bg-background rounded-xl shadow-lg p-3">
+              <p className="text-xs text-muted-foreground">Ov tsantasakandelay βitsnatoartov</p>
+              <p className="text-sm font-bold">
+                <span className="text-[hsl(210,90%,55%)]">●</span> Gortiqadelay
+              </p>
             </div>
           </div>
 
           <div className="space-y-6">
             <h2 className="text-3xl md:text-4xl font-bold">
-              Հapart torvод <span className="text-primary">Hartser</span>
+              Hatsakhn torvod <span className="text-primary">hartser</span>
             </h2>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Delays delays delays delays delays delays delays delays delays delays delays.
+              Кatsatsgotsov ev ov 5 hatsa ov trvod hartseri aqays artasaner,
+              tronits grchelits dzov artov rusdelays ov danagrdelu.
             </p>
             <ul className="space-y-3">
               {features.map((feature, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <CheckCircle className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                  <span className="flex items-center justify-center w-5 h-5 rounded-full bg-primary text-primary-foreground text-[10px] font-bold flex-shrink-0 mt-0.5">
+                    {i + 1}
+                  </span>
                   <span className="text-sm text-muted-foreground">{feature}</span>
                 </li>
               ))}

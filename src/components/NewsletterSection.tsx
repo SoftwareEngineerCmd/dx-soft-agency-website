@@ -8,19 +8,19 @@ const NewsletterSection = () => {
         <div className="bg-secondary rounded-2xl p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
             <h3 className="text-lg md:text-xl font-bold mb-2">
-              Strap notifications and delays
+              Ստatsedelays Norutyuнnerov ev aravatstsner
             </h3>
             <p className="text-sm text-muted-foreground">
-              aнdelays Эl фostdelay
+              anditsadelay Zer <span className="text-primary font-semibold">Эl. phostin</span>
             </p>
           </div>
           <div className="flex gap-2 w-full md:w-auto">
             <Input
-              placeholder="Էl. فdelays"
+              placeholder="Эl. phosta"
               className="rounded-full bg-background max-w-xs"
             />
             <Button className="rounded-full bg-primary text-primary-foreground hover:bg-primary/90 whitespace-nowrap">
-              Dмagdelays
+              Гrasvelov gratsvel
             </Button>
           </div>
         </div>
