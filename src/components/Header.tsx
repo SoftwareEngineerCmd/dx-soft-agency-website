@@ -2,9 +2,9 @@ import { Menu, X } from "lucide-react";
 import { useState } from "react";
 
 const navLinks = [
-  { label: "Մեր Մասին", href: "#about" },
-  { label: "Դասընթdelays", href: "#courses" },
-  { label: "Մasնagets", href: "#specialists" },
+  { label: "Մdelays Մasін", href: "#about" },
+  { label: "Դasunths", href: "#courses" },
+  { label: "Մasnagets", href: "#specialists" },
   { label: "Q&A", href: "#faq" },
   { label: "Կap", href: "#contact" },
 ];
@@ -15,11 +15,13 @@ const Header = () => {
   return (
     <header className="sticky top-0 z-50 bg-background border-b border-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
-        <a href="#" className="flex items-center gap-2">
+        <a href="#" className="flex items-center gap-1">
           <span className="text-2xl font-black tracking-tight">
             OMNID<span className="text-primary">X</span>
           </span>
-          <span className="text-[10px] uppercase tracking-widest text-muted-foreground leading-tight block -mt-1">Academy</span>
+          <span className="text-[10px] uppercase tracking-widest text-muted-foreground leading-tight block">
+            ACADEMY
+          </span>
         </a>
 
         <nav className="hidden md:flex items-center gap-8">

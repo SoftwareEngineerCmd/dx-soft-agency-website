@@ -5,22 +5,24 @@ import { Badge } from "@/components/ui/badge";
 
 const courses = [
   {
-    title: "Graphic & UI/UX Design | Սkennel Course",
+    title: "Graphic & UI/UX Design | Սkennaк Кoursse",
     image: "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=400&h=250&fit=crop",
-    duration: "6 ամ.",
-    schedule: "Շdelays-ertificate",
-    level: "Beginner",
-    price: "60,000",
-    color: "bg-primary",
+    duration: "8 thenagordz 4 U.pr.",
+    schedule: "Shdelays-ur dzerkh 8 kdelays",
+    level: "Tasaratsov",
+    price: "69,900",
+    buttonText: "Aravelov imatsel",
+    tag: "ov dzelf",
   },
   {
-    title: "Frontend Development | Սkennel Course",
+    title: "Frontend Development | Սkennaк Кoursse",
     image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=250&fit=crop",
-    duration: "5 ամ.",
-    schedule: "Շdelays",
-    level: "Aneeds",
-    price: "40,000",
-    color: "bg-primary",
+    duration: "Shdelays-ur dzerkh 8 kdelays",
+    schedule: "5 asmit / 6 qay",
+    level: "Мitsnaк",
+    price: "49,500",
+    buttonText: "Grasvelov imatsel",
+    tag: "ov rnus",
   },
 ];
 
@@ -30,12 +32,12 @@ const CoursesSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-10 gap-4">
           <h2 className="text-2xl md:text-3xl font-bold">
-            ԴASUNCHDELAYS ԴASUNCHDELAYS
+            ДASUNELI DASUNTACHNNER
           </h2>
           <div className="flex gap-2">
-            <Button variant="outline" size="sm" className="rounded-full">Defers</Button>
-            <Button variant="outline" size="sm" className="rounded-full">Онdelays</Button>
-            <Button variant="outline" size="sm" className="rounded-full">Бdelays</Button>
+            <Button variant="outline" size="sm" className="rounded-full">Artov Gortdelays</Button>
+            <Button variant="outline" size="sm" className="rounded-full">Ondelays</Button>
+            <Button variant="outline" size="sm" className="rounded-full">Βitsnesakets</Button>
           </div>
         </div>
 
@@ -45,7 +47,7 @@ const CoursesSection = () => {
               <div className="relative h-48 bg-muted">
                 <img src={course.image} alt={course.title} className="w-full h-full object-cover" />
                 <Badge className="absolute top-3 left-3 bg-primary text-primary-foreground">
-                  {course.price} դdelays
+                  {course.price} {course.tag}
                 </Badge>
               </div>
               <CardContent className="p-5 space-y-3">
@@ -57,7 +59,7 @@ const CoursesSection = () => {
                 </div>
                 <div className="flex items-center justify-between pt-2">
                   <Button size="sm" className="rounded-full bg-primary text-primary-foreground hover:bg-primary/90">
-                    Araveling Vidео <ArrowRight className="ml-1 h-3 w-3" />
+                    {course.buttonText} <ArrowRight className="ml-1 h-3 w-3" />
                   </Button>
                   <span className="text-xs text-muted-foreground">DXACADEMY</span>
                 </div>

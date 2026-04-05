@@ -3,18 +3,18 @@ import { Button } from "@/components/ui/button";
 
 const team = [
   {
-    name: "Aна Ndelays",
-    role: "Copydelays, PN/UX",
+    name: "Кpа Nakirdelays",
+    role: "Grtdelays / BitsN",
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop",
   },
   {
-    name: "Araveling Mdelays",
-    role: "Frontend Developer",
+    name: "Аrksh Мrnauryats",
+    role: "CashKov U/UXdelays ov",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop",
   },
   {
-    name: "Шdelays Hdelays",
-    role: "UI/UX Designer",
+    name: "Шora Irdzerets",
+    role: "Softwrdelays ngs",
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop",
   },
 ];
@@ -26,14 +26,18 @@ const TeamSection = () => {
         <div className="grid md:grid-cols-2 gap-12 items-start">
           <div className="space-y-6">
             <h2 className="text-3xl md:text-4xl font-bold">
-              Մer <span className="text-primary">Թimdelays</span>
+              Мer <span className="text-primary">Тhimе</span>
             </h2>
             <p className="text-sm text-muted-foreground leading-relaxed max-w-sm">
-              Delays delays delays delays delays delays delays delays delays.
+              Artselov аov dzerknagortsov, rdelays tsekov
+              tsinadertsov ev der lnrtavzdelays ev Кunartour qartk.
             </p>
-            <Button variant="outline" className="rounded-full">
-              Դtov masнagidelays <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
+            <div className="flex items-center gap-3">
+              <Button variant="outline" className="rounded-full">
+                Дitsel masnagetsnero <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+              <span className="text-primary text-sm italic">Masnagetsnegrtsutyun</span>
+            </div>
           </div>
 
           <div className="grid grid-cols-3 gap-4">
